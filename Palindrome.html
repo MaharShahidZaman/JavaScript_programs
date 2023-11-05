@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palimdrome</title>
+</head>
+
+<body>
+
+    <script>
+        function Palimdrome(value) {
+            let ReValue = value.toString().split('').reverse().join('')
+            // let strValue = value.toString();
+            // console.log(ReValue);
+            if (value == ReValue) {
+                console.log('Palindrome');
+            } else {
+                console.log('Not a Palindrome');
+            }
+        }
+        Palimdrome(12321)
+    </script>
+
+</body>
+
+</html>
